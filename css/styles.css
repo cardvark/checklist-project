@@ -1,0 +1,18 @@
+body {
+	background-color: LightGray;
+	margin: 0;
+	padding: 0;
+}
+
+* {
+	border: solid red 1px;
+}
+
+.content {
+	width: 50rem;
+	background-color: white;
+	min-height: 5rem;
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+}
