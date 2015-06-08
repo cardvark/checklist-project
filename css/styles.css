@@ -1,7 +1,13 @@
 body {
-	background-color: LightGray;
+	background-color: #F2F2F2;
 	margin: 0;
 	padding: 0;
+}
+
+html, body {
+	min-height: 100%;
+	margin: 0;
+	height: 100%;
 }
 
 * {
@@ -9,10 +15,43 @@ body {
 }
 
 .content {
-	width: 50rem;
+	width: 40rem;
 	background-color: white;
 	min-height: 5rem;
 	text-align: center;
 	display: block;
 	margin: 0 auto;
+	padding: 0;
+}
+
+.main {
+	height: 100%;
+}
+
+.main .content {
+	height: 100%;
+}
+
+.topInfo {
+	padding-top: 2rem;
+	padding-bottom: 1rem;
+}
+
+.itemList {
+	list-style-type: none;
+/*	float: left;*/
+	text-align: left;
+}
+
+.itemBlock {
+	margin: 0.2em;
+	width: 90%;
+}
+
+.checkbox, .itemInfo, .removeButton {
+	display: inline-block;
+}
+
+.removeButton {
+	float: right;
 }
