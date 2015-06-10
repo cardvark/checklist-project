@@ -10,10 +10,10 @@ html, body {
 	height: 100%;
 }
 
-* {
+/* * {
 	border: solid red 1px;
 }
-
+ */
 .content {
 	width: 40rem;
 	background-color: white;
@@ -45,13 +45,48 @@ html, body {
 
 .itemBlock {
 	margin: 0.2em;
+	padding: 0.2em;
 	width: 90%;
+	border-bottom: dotted 1px gray;
 }
 
 .checkbox, .itemInfo, .removeButton {
 	display: inline-block;
+	vertical-align: middle;
 }
 
 .removeButton {
 	float: right;
+}
+
+.checkbox {
+	width: 19px;
+	height: 19px;
+	vertical-align: middle;
+	background: url('../images/check_radio_sheet.png') left top no-repeat;
+	cursor: pointer;
+}
+
+.checked {
+	width: 19px;
+	height: 19px;
+	vertical-align: middle;
+	background: url('../images/check_radio_sheet.png') -19px top no-repeat;
+}
+
+.removeButton {
+	width: 20px;
+	height: 20px;
+	vertical-align: middle;
+	background: url('../images/delete.png');
+	display: none;
+	cursor: pointer;
+};
+
+.itemInfo {
+	
+}
+
+.struck {
+	text-decoration: line-through;
 }
